@@ -112,7 +112,7 @@ def handle_depreciation(data: DepreciationRequest):
     print("📆 決算日:", data.closing_date)
     print("🧾 耐用年数:", data.life)
     if data.target_year:
-        print("🔍 対象年度:", data.target_year)
+        print("🔍 事業年度末:", data.target_year)
 
     for entry in data.entries:
         print(f"  借方: {entry.debit}, 貸方: {entry.credit}, 金額: {entry.amount}")
