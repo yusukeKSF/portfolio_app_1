@@ -1,0 +1,13 @@
+openai>=1.10.0
+google-cloud-vision  
+python-dotenv>=1.0.0
+fastapi
+uvicorn
+pydantic
+pytesseract>=0.3.10
+gspread>=5.12.0
+oauth2client>=4.1.3
+google-auth 
+selenium
+google-api-python-client 
+opencv-python 

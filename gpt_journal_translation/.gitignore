@@ -1,0 +1,16 @@
+journal_translate/
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+.env
+.zshrc
+journal_entries.json
+credentials
+credentials.json
+vision_api_key.json
+vision_test_file/
+source
+start_git.txt
+back_source/
